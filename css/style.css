@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 9px 0;
+}
+/* Utilities Classes */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+  overflow: hidden;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.l-heading {
+  font-size: 64px;
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+
+.m-heading {
+  font-size: 25px;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+.lead {
+  font-size: 20.8px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: inline-block;
+  background: #93cb52;
+  color: #fff;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #7ab436;
+} 
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.p-1 { padding: 1.5rem;}
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+.p-4 { padding: 4rem; }
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 16px;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 6px;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 50%;
+}
+
+/* Showcase */
+#showcase {
+  background: #333 url('../img/bg_1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  padding: 0 42px;
+ /* overlay */
+ position: absolute;
+ top: 65px;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0,0,0,0.4);
+}
+
+/* Our Course */
+#course h3 {
+  text-align: center;
+  font-size: 32px;
+  font-family: serif;
+}
+
+#course .course-content {
+  display: flex;
+ align-content: flex-end;
+   
+}
+
+#course .course-content img {
+  width: 358px;
+  height: 300px;
+}
+
+#course .course-detail {
+  background: rgb(238, 237, 237);
+  margin: 16px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+#course .tail {
+  color: rgb(112, 108, 108);
+  text-decoration-line: underline;
+}
+
+#course h4  {
+  font-size: 18px;
+  padding: 16px;
+  line-height: 1.1em;
+}
+
+#course h4 a {
+  color: #666;
+}
+
+#course p {
+  padding-left: 18px;
+  color: #999;
+  margin-bottom: 32px;
+}
+
+/* Subscription */
+
+#subscribe .subscribe-content {
+background: linear-gradient(purple, orange);
+text-align: center;
+padding: 32px;
+margin-top: 20px;
+color: #fff;
+}
+
+#subscribe .subscribe-content p {
+  font-size: 10px;
+ margin-bottom: 30px;
+ padding-top: 20px;
+}
+
+#subscribe .subscribe-content input {
+  width: 400px;
+  height: 40px;
+  border: #fff 1px solid;
+  background: #999;
+}
+
+#subscribe input::placeholder {
+  color: #666;
+}
+
+#main-footer {
+  padding-top: 100px;
+  background: #333;
+  color: white;
+  padding-left: 32px; 
+  text-align: center;
+}
+
+#main-footer .oursite {
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+#main-footer .oursite-content {
+  flex: 1;
+  padding: 16px;
+}
+#main-footer .oursite-content h5 {
+font-size: 17px;
+}
+
+#main-footer .oursite-content ul {
+  list-style: none;
+  padding-top: 46px;
+}
+
+#main-footer .oursite-content a, 
+#main-footer .oursite-content li {
+  text-decoration: none;
+  color: #999;
+  padding-top: 8px;
+}
+
+#main-footer .oursite-content a:hover {
+  color: #fff;
+}
+
+#main-footer .oursite-content:last-child {
+  flex: 2;
+  text-align: center;
+}
+
+
